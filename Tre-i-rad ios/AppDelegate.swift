@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Tre-i-rad ios
 //
-//  Created by Ismenia Brandao 
+//  Created by Ismenia Brandao on 2023-01-02.
 //
 
 import UIKit
