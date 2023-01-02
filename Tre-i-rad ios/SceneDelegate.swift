@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Tre-i-rad ios
 //
-//  Created by Ismenia Brandao on 2023-01-02.
+//  Created by Ismenia Brandao 
 //
 
 import UIKit
