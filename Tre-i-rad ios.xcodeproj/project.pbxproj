@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088956D82962FF0800215DE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088956D72962FF0800215DE8 /* AppDelegate.swift */; };
+		088956DA2962FF0800215DE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088956D92962FF0800215DE8 /* SceneDelegate.swift */; };
+		088956DC2962FF0800215DE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088956DB2962FF0800215DE8 /* ViewController.swift */; };
+		088956DF2962FF0800215DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088956DD2962FF0800215DE8 /* Main.storyboard */; };
+		088956E12962FF0F00215DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088956E02962FF0F00215DE8 /* Assets.xcassets */; };
+		088956E42962FF0F00215DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088956E22962FF0F00215DE8 /* LaunchScreen.storyboard */; };
+		088956EF2962FF1000215DE8 /* Tre_i_rad_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088956EE2962FF1000215DE8 /* Tre_i_rad_iosTests.swift */; };
+		088956F92962FF1000215DE8 /* Tre_i_rad_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088956F82962FF1000215DE8 /* Tre_i_rad_iosUITests.swift */; };
+		088956FB2962FF1000215DE8 /* Tre_i_rad_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088956FA2962FF1000215DE8 /* Tre_i_rad_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088956EB2962FF1000215DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088956CC2962FF0800215DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088956D32962FF0800215DE8;
+			remoteInfo = "Tre-i-rad ios";
+		};
+		088956F52962FF1000215DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088956CC2962FF0800215DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088956D32962FF0800215DE8;
+			remoteInfo = "Tre-i-rad ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088956D42962FF0800215DE8 /* Tre-i-rad ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tre-i-rad ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		088956D72962FF0800215DE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		088956D92962FF0800215DE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		088956DB2962FF0800215DE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		088956DE2962FF0800215DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		088956E02962FF0F00215DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		088956E32962FF0F00215DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		088956E52962FF0F00215DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088956EA2962FF1000215DE8 /* Tre-i-rad iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tre-i-rad iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		088956EE2962FF1000215DE8 /* Tre_i_rad_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tre_i_rad_iosTests.swift; sourceTree = "<group>"; };
+		088956F42962FF1000215DE8 /* Tre-i-rad iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tre-i-rad iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		088956F82962FF1000215DE8 /* Tre_i_rad_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tre_i_rad_iosUITests.swift; sourceTree = "<group>"; };
+		088956FA2962FF1000215DE8 /* Tre_i_rad_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tre_i_rad_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088956D12962FF0800215DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088956E72962FF1000215DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088956F12962FF1000215DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088956CB2962FF0800215DE8 = {
+			isa = PBXGroup;
+			children = (
+				088956D62962FF0800215DE8 /* Tre-i-rad ios */,
+				088956ED2962FF1000215DE8 /* Tre-i-rad iosTests */,
+				088956F72962FF1000215DE8 /* Tre-i-rad iosUITests */,
+				088956D52962FF0800215DE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		088956D52962FF0800215DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088956D42962FF0800215DE8 /* Tre-i-rad ios.app */,
+				088956EA2962FF1000215DE8 /* Tre-i-rad iosTests.xctest */,
+				088956F42962FF1000215DE8 /* Tre-i-rad iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088956D62962FF0800215DE8 /* Tre-i-rad ios */ = {
+			isa = PBXGroup;
+			children = (
+				088956D72962FF0800215DE8 /* AppDelegate.swift */,
+				088956D92962FF0800215DE8 /* SceneDelegate.swift */,
+				088956DB2962FF0800215DE8 /* ViewController.swift */,
+				088956DD2962FF0800215DE8 /* Main.storyboard */,
+				088956E02962FF0F00215DE8 /* Assets.xcassets */,
+				088956E22962FF0F00215DE8 /* LaunchScreen.storyboard */,
+				088956E52962FF0F00215DE8 /* Info.plist */,
+			);
+			path = "Tre-i-rad ios";
+			sourceTree = "<group>";
+		};
+		088956ED2962FF1000215DE8 /* Tre-i-rad iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				088956EE2962FF1000215DE8 /* Tre_i_rad_iosTests.swift */,
+			);
+			path = "Tre-i-rad iosTests";
+			sourceTree = "<group>";
+		};
+		088956F72962FF1000215DE8 /* Tre-i-rad iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				088956F82962FF1000215DE8 /* Tre_i_rad_iosUITests.swift */,
+				088956FA2962FF1000215DE8 /* Tre_i_rad_iosUITestsLaunchTests.swift */,
+			);
+			path = "Tre-i-rad iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088956D32962FF0800215DE8 /* Tre-i-rad ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088956FE2962FF1000215DE8 /* Build configuration list for PBXNativeTarget "Tre-i-rad ios" */;
+			buildPhases = (
+				088956D02962FF0800215DE8 /* Sources */,
+				088956D12962FF0800215DE8 /* Frameworks */,
+				088956D22962FF0800215DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tre-i-rad ios";
+			productName = "Tre-i-rad ios";
+			productReference = 088956D42962FF0800215DE8 /* Tre-i-rad ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		088956E92962FF1000215DE8 /* Tre-i-rad iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088957012962FF1000215DE8 /* Build configuration list for PBXNativeTarget "Tre-i-rad iosTests" */;
+			buildPhases = (
+				088956E62962FF1000215DE8 /* Sources */,
+				088956E72962FF1000215DE8 /* Frameworks */,
+				088956E82962FF1000215DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088956EC2962FF1000215DE8 /* PBXTargetDependency */,
+			);
+			name = "Tre-i-rad iosTests";
+			productName = "Tre-i-rad iosTests";
+			productReference = 088956EA2962FF1000215DE8 /* Tre-i-rad iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		088956F32962FF1000215DE8 /* Tre-i-rad iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088957042962FF1000215DE8 /* Build configuration list for PBXNativeTarget "Tre-i-rad iosUITests" */;
+			buildPhases = (
+				088956F02962FF1000215DE8 /* Sources */,
+				088956F12962FF1000215DE8 /* Frameworks */,
+				088956F22962FF1000215DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088956F62962FF1000215DE8 /* PBXTargetDependency */,
+			);
+			name = "Tre-i-rad iosUITests";
+			productName = "Tre-i-rad iosUITests";
+			productReference = 088956F42962FF1000215DE8 /* Tre-i-rad iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088956CC2962FF0800215DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					088956D32962FF0800215DE8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					088956E92962FF1000215DE8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 088956D32962FF0800215DE8;
+					};
+					088956F32962FF1000215DE8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 088956D32962FF0800215DE8;
+					};
+				};
+			};
+			buildConfigurationList = 088956CF2962FF0800215DE8 /* Build configuration list for PBXProject "Tre-i-rad ios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 088956CB2962FF0800215DE8;
+			productRefGroup = 088956D52962FF0800215DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088956D32962FF0800215DE8 /* Tre-i-rad ios */,
+				088956E92962FF1000215DE8 /* Tre-i-rad iosTests */,
+				088956F32962FF1000215DE8 /* Tre-i-rad iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088956D22962FF0800215DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088956E42962FF0F00215DE8 /* LaunchScreen.storyboard in Resources */,
+				088956E12962FF0F00215DE8 /* Assets.xcassets in Resources */,
+				088956DF2962FF0800215DE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088956E82962FF1000215DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088956F22962FF1000215DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088956D02962FF0800215DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088956DC2962FF0800215DE8 /* ViewController.swift in Sources */,
+				088956D82962FF0800215DE8 /* AppDelegate.swift in Sources */,
+				088956DA2962FF0800215DE8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088956E62962FF1000215DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088956EF2962FF1000215DE8 /* Tre_i_rad_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088956F02962FF1000215DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088956FB2962FF1000215DE8 /* Tre_i_rad_iosUITestsLaunchTests.swift in Sources */,
+				088956F92962FF1000215DE8 /* Tre_i_rad_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		088956EC2962FF1000215DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088956D32962FF0800215DE8 /* Tre-i-rad ios */;
+			targetProxy = 088956EB2962FF1000215DE8 /* PBXContainerItemProxy */;
+		};
+		088956F62962FF1000215DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088956D32962FF0800215DE8 /* Tre-i-rad ios */;
+			targetProxy = 088956F52962FF1000215DE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		088956DD2962FF0800215DE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088956DE2962FF0800215DE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		088956E22962FF0F00215DE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088956E32962FF0F00215DE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		088956FC2962FF1000215DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		088956FD2962FF1000215DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088956FF2962FF1000215DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tre-i-rad ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Menia.Tre-i-rad-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		088957002962FF1000215DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tre-i-rad ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Menia.Tre-i-rad-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		088957022962FF1000215DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Menia.Tre-i-rad-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tre-i-rad ios.app/Tre-i-rad ios";
+			};
+			name = Debug;
+		};
+		088957032962FF1000215DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Menia.Tre-i-rad-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tre-i-rad ios.app/Tre-i-rad ios";
+			};
+			name = Release;
+		};
+		088957052962FF1000215DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Menia.Tre-i-rad-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tre-i-rad ios";
+			};
+			name = Debug;
+		};
+		088957062962FF1000215DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Menia.Tre-i-rad-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tre-i-rad ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088956CF2962FF0800215DE8 /* Build configuration list for PBXProject "Tre-i-rad ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088956FC2962FF1000215DE8 /* Debug */,
+				088956FD2962FF1000215DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088956FE2962FF1000215DE8 /* Build configuration list for PBXNativeTarget "Tre-i-rad ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088956FF2962FF1000215DE8 /* Debug */,
+				088957002962FF1000215DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088957012962FF1000215DE8 /* Build configuration list for PBXNativeTarget "Tre-i-rad iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088957022962FF1000215DE8 /* Debug */,
+				088957032962FF1000215DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088957042962FF1000215DE8 /* Build configuration list for PBXNativeTarget "Tre-i-rad iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088957052962FF1000215DE8 /* Debug */,
+				088957062962FF1000215DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088956CC2962FF0800215DE8 /* Project object */;
+}
